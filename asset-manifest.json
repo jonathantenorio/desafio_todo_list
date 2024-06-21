@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/desafio_todo_list/static/css/main.f35bd06d.css",
+    "main.js": "/desafio_todo_list/static/js/main.73784129.js",
+    "static/js/453.81f383cb.chunk.js": "/desafio_todo_list/static/js/453.81f383cb.chunk.js",
+    "static/media/cloud.png": "/desafio_todo_list/static/media/cloud.ef4e9bf15580cabd23ea.png",
+    "index.html": "/desafio_todo_list/index.html",
+    "main.f35bd06d.css.map": "/desafio_todo_list/static/css/main.f35bd06d.css.map",
+    "main.73784129.js.map": "/desafio_todo_list/static/js/main.73784129.js.map",
+    "453.81f383cb.chunk.js.map": "/desafio_todo_list/static/js/453.81f383cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f35bd06d.css",
+    "static/js/main.73784129.js"
+  ]
+}
