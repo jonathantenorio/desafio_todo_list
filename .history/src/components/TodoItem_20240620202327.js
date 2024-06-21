@@ -14,7 +14,7 @@ function TodoItem({ todo, toggleTodo, removeTodo }) {
         onClick={removeTodo}
         className="ml-2 bg-red-500 text-white py-1 px-2 rounded-md shadow-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
       >
-        Remover
+        Remove
       </button>
     </div>
   );

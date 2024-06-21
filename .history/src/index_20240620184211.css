@@ -16,9 +16,9 @@
 }
 
 .cloud {
-  
+  /* Estilos das nuvens pixel art (exemplo) */
   width: 100px;
   height: 60px;
-  background-image: url('/public/cloud.png');
-  
+  background-image: url('path/to/cloud-image.png');
+  /* Adicione mais estilos conforme necessário */
 }

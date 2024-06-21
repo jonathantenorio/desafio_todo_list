@@ -6,7 +6,7 @@ function TodoApp() {
   const [todos, setTodos] = useState([]);
 
   const addTodo = (text) => {
-    setTodos([...todos, { text, completed: false }]);
+    setTodos([...todos, { text, Concluido: false }]);
   };
 
   const toggleTodo = (index) => {
@@ -21,11 +21,10 @@ function TodoApp() {
   };
 
   return (
-
-    <div className="bg-blue-800 min-h-screen flex items-center justify-center">
+    <div className="bg-blue-200 min-h-screen flex items-center justify-center">
       <div className="max-w-md w-full">
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h1 className="text-2xl font-bold mb-4 text-center">Lista de Tarefas</h1>
+          <h1 className="text-2xl font-bold mb-4 text-center">Todo List</h1>
           <TodoForm addTodo={addTodo} />
           <TodoList todos={todos} toggleTodo={toggleTodo} removeTodo={removeTodo} />
         </div>
@@ -35,3 +34,4 @@ function TodoApp() {
 }
 
 export default TodoApp;
+

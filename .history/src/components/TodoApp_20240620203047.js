@@ -21,8 +21,18 @@ function TodoApp() {
   };
 
   return (
+    <div className="relative min-h-screen bg-blue-200">
+    {/* Fundo com nuvens */}
+    <div className="absolute inset-0 z-0">
+      <div className="h-full grid grid-cols-3 gap-4">
+        
+        <div className="col-span-1 animate-cloud opacity-80"></div>
+        <div className="col-span-1 animate-cloud opacity-90"></div>
+        <div className="col-span-1 animate-cloud opacity-100"></div>
+      </div>
+    </div>
 
-    <div className="bg-blue-800 min-h-screen flex items-center justify-center">
+    <div className="bg-blue-200 min-h-screen flex items-center justify-center">
       <div className="max-w-md w-full">
         <div className="bg-white rounded-lg shadow-md p-6">
           <h1 className="text-2xl font-bold mb-4 text-center">Lista de Tarefas</h1>
@@ -35,3 +45,4 @@ function TodoApp() {
 }
 
 export default TodoApp;
+

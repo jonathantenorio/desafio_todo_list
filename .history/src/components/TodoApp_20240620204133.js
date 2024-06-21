@@ -21,8 +21,7 @@ function TodoApp() {
   };
 
   return (
-
-    <div className="bg-blue-800 min-h-screen flex items-center justify-center">
+    <div className="bg-blue-100 min-h-screen flex items-center justify-center">
       <div className="max-w-md w-full">
         <div className="bg-white rounded-lg shadow-md p-6">
           <h1 className="text-2xl font-bold mb-4 text-center">Lista de Tarefas</h1>

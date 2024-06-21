@@ -5,7 +5,7 @@ function TodoList({ todos, toggleTodo, removeTodo }) {
   return (
     <div>
       {todos.map((todo, index) => (
-        <div key={index} className="mb-4 bg-orange-400 rounded-lg shadow-md p-4">
+        <div key={index} className="mb-4 bg-orange-200 rounded-lg shadow-md p-4">
           <TodoItem
             todo={todo}
             toggleTodo={() => toggleTodo(index)}
